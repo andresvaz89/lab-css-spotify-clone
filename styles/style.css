@@ -6,3 +6,73 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+  background-image: url('../images/landing.jpg');
+  padding: 200px;
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  padding: 15% 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 15 em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3 em;
+  text-align: center;
+}
+
+h3 {
+  font-size: 3 em;
+  text-align: center;
+  font-weight: lighter;
+}
+
+ul {
+  display: flex;
+  position: fixed;
+  justify-content: flex-end;
+  align-items: stretch;
+  background-color: white;
+  padding: 1.5 em;
+  list-style: none;
+}
+
+.logoNav {
+  max-width: 200px;
+  max-width: 200px;
+  background-color: white;
+}
+nav {
+  padding: 25px;
+  display: flex;
+  position: fixed;
+}
+
+.leftImg {
+  background-image: url('../images/music-icon.png');
+  float: left;
+  padding: 20px;
+  height: 590px;
+}
+
+.midImg {
+  background-image: url('../images/high-quality-icon.png');
+  float: none;
+  height: 590px;
+}
+
+.rightImg {
+  background-image: url('../images/devices-icon.png');
+  float: right;
+  height: 590px;
+}
